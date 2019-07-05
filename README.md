@@ -2,7 +2,7 @@
 Utilities that allow us to do simple management of Guids or uuids as strings
 ## Installation
 
-Install react-use-async-callback locally within your project folder, like so:
+Install with npm:
 
 ```shell
 npm install guid-string
@@ -34,7 +34,7 @@ import { Guid } from 'guid-string';
 let valid = Guid.isGuid('...');
 ```
 
-Check if a string is an empty guid ("00000000-0000-0000-0000-000000000000", "", undefined, and null are all considered empty.)
+Check if a string is an empty guid ("00000000-0000-0000-0000-000000000000", "", undefined, and null are all considered empty).
 
 ```ts
 import { Guid } from 'guid-string';
@@ -42,7 +42,7 @@ import { Guid } from 'guid-string';
 let isEmpty = Guid.isEmpty('...');
 ```
 
-Get the constant for an empty guid "00000000-0000-0000-0000-000000000000", "", undefined, and null are all considered empty.)
+Get the constant for an empty guid ("00000000-0000-0000-0000-000000000000").
 
 ```ts
 import { Guid } from 'guid-string';
@@ -68,7 +68,7 @@ import { Guid } from 'guid-string';
 var valid = Guid.isGuid('...');
 ```
 
-Check if a string is an empty guid ("00000000-0000-0000-0000-000000000000", "", undefined, and null are all considered empty.)
+Check if a string is an empty guid ("00000000-0000-0000-0000-000000000000", "", undefined, and null are all considered empty).
 
 ```js
 import { Guid } from 'guid-string';
@@ -76,7 +76,7 @@ import { Guid } from 'guid-string';
 var isEmpty = Guid.isEmpty('...');
 ```
 
-Get the constant for an empty guid "00000000-0000-0000-0000-000000000000", "", undefined, and null are all considered empty.)
+Get the constant for an empty guid ("00000000-0000-0000-0000-000000000000").
 
 ```js
 import { Guid } from 'guid-string';

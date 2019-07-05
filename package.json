@@ -1,0 +1,43 @@
+{
+  "name": "guid-string",
+  "version": "1.0.0",
+  "description": "Utilities that allow us to do simple management of Guids or uuids as strings",
+  "main": "dist/lib/commonjs/index.js",
+  "module": "dist/lib/esm/index.js",
+  "types": "dist/lib/esm/index.d.ts",
+  "license": "MIT",
+  "author": {
+    "name": "Scott Bamford",
+    "email": "scott@ambidect.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scottbamford/guid-string.git"
+  },
+  "keywords": [
+    "guid",
+    "uuid",
+    "string",
+    "unique idenfitier",
+    "create"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "bugs": {
+    "url": "https://github.com/scottbamford/guid-string/issues"
+  },
+  "homepage": "https://github.com/scottbamford/guid-string/#readme",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "tsc && tsc -m esnext --outDir ./dist/lib/esm",
+    "rebuild": "npm run-script clean && npm run-script build"
+  },
+  "dependencies": {
+    "tslib": "^1.9.3"
+  },
+  "devDependencies": {
+    "typescript": "3.4.5",
+    "rimraf": "^2.6.3"
+  }
+}

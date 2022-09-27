@@ -1,6 +1,6 @@
 {
   "name": "guid-string",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Utilities that allow us to do simple management of Guids or uuids as strings",
   "main": "dist/lib/commonjs/index.js",
   "module": "dist/lib/esm/index.js",
